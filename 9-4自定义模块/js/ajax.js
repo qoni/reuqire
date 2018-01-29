@@ -1,3 +1,4 @@
+define(function () {
     function Ajax(opt) {
         function fn() {
         }
@@ -29,4 +30,6 @@
                 failure(xhr);
             }
         }
-    };
+    }
+    return {Ajax:Ajax}
+});
